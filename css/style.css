@@ -173,3 +173,38 @@ a {
 .testimonial h3 {
   text-align: end;
 }
+
+.cta-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 40px;
+}
+
+.cta {
+  flex-grow: 1;
+  background-color: var(--cta-bg);
+  display: flex;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 40px;
+  color: var(--light-txt-main);
+  border-radius: 10px;
+}
+
+.cta-left p {
+  color: var(--light-txt-sec);
+}
+
+.cta-right button {
+  padding: 4px 30px;
+  border: 2px solid var(--light-txt-main);
+  border-radius: 8px;
+  background-color: var(--cta-bg);
+  color: var(--light-txt-main);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
